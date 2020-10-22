@@ -1,0 +1,14 @@
+{
+  "name": "javascriptclassestest",
+  "version": "0.0.2",
+  "description": "testing classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -r esm index.js"
+  },
+  "author": "HM",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
