@@ -26,11 +26,11 @@ class Car{
     }
 }
 
-class Truct extends Car {
+class Truck extends Car {
     constructor(brand,model,hv){
         super(brand,model)
         this.hv = hv
     }
 }
 
-export {Car, Truct};
+export {Car, Truck};

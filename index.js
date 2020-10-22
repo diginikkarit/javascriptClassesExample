@@ -7,7 +7,7 @@
 // note: this app has esm package included in package.json
 
 //Import Classes
-import {Car, Truct} from './Classes/Car'
+import {Car, Truck} from './Classes/Car'
 import PersonClass from './Classes/Person'
 import CarHandler from './Classes/CarHandler'
 import CarChecker from './Classes/CarHandler'
@@ -27,7 +27,7 @@ console.log("This object is of a Car Class : "+CarChecker(auto1))
 console.log("This object is of a Car Class : "+CarChecker(randomObject))
 
 console.log("\n Truck stuff")
-let rekka = new Truct("scania","xb-gg",444)
+let rekka = new Truck("scania","xb-gg",444)
 
 //will not work
 rekka.driver = randomObject
