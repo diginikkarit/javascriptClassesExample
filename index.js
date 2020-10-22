@@ -22,6 +22,7 @@ auto2.brand = "Volvo"
 auto2.model = "740 GL"
 let randomObject = {dude:"Heikki",profession:"24h enterteiner"}
 console.log("\n car stuff \n")
+console.log("\n car stuff \n")
 console.log("This object is of a Car Class : "+CarChecker(auto2))
 console.log("This object is of a Car Class : "+CarChecker(auto1))
 console.log("This object is of a Car Class : "+CarChecker(randomObject))
