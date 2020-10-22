@@ -11,6 +11,7 @@ import {Car, Truck} from './Classes/Car'
 import PersonClass from './Classes/Person'
 import CarHandler from './Classes/CarHandler'
 import CarChecker from './Classes/CarHandler'
+import Person from './Classes/Person'
 
 console.log("Index started")
 
@@ -22,7 +23,6 @@ auto2.brand = "Volvo"
 auto2.model = "740 GL"
 let randomObject = {dude:"Heikki",profession:"24h enterteiner"}
 console.log("\n car stuff \n")
-console.log("\n car stuff \n")
 console.log("This object is of a Car Class : "+CarChecker(auto2))
 console.log("This object is of a Car Class : "+CarChecker(auto1))
 console.log("This object is of a Car Class : "+CarChecker(randomObject))
@@ -32,7 +32,8 @@ let rekka = new Truck("scania","xb-gg",444)
 
 //will not work
 rekka.driver = randomObject
-
+let dude = new Person("Joakkim","Tiihonen",3345)
+console.log(dude.firstName)
 //does work
 rekka.driver = new PersonClass("Heikki","Koponen",3354) 
 //console.log(rekka.hv)
