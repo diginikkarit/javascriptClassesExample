@@ -2,10 +2,6 @@ import Person from './Person'
 
 class Car{
 
-    brand:string
-    model:string
-    _driver:Person
-
     constructor(brand, model)
     {
         this.brand = brand
@@ -13,7 +9,7 @@ class Car{
         
     }
 
-    set driver(driver:Person){
+    set driver(driver){
         if(driver instanceof Person){
             let msg = "Person set as a driver"
             msg += "\nname:"+driver.firstName+" "+driver.lastName
@@ -32,8 +28,6 @@ class Car{
 }
 
 class Truck extends Car {
-
-    hv:number
 
     constructor(brand,model,hv){
         super(brand,model)
